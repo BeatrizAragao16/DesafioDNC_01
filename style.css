@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+
+}
+#tituloprincipal {
+    margin-left: 150px;
+    padding-top: 50px;
+    font-size: 40px;
+    
+}
+#subtitulosuperior {
+    padding-bottom: 100px;
+    margin-left: 150px;
+    margin-top: 35px;
+}
+#menusuperior {
+    background-color: #303030;
+    color: #ffff;
+}
+#menuinformativo{
+    background-color: #f9f9f9;
+    padding: 50px 50px 50px 150px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+}
+#historia {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+}
+#imagemarquitetura {
+    margin: 50px 25px 50px 100px;
+}
+#titulohistoria {
+    margin-left: 100px;
+}
+#aboutus {
+    margin-left: 100px;
+}
+#form {
+    background-color: #303030;
+    text-align: center;
+    padding: 50px;
+}
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button {
+    background-color: #c07212;
+    height: 40px;
+    width: 150px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 40px;
+}
+#titleform {
+    color: #ffff;
+    font-size: 25px;
+    margin: 25px;
+}
+button:hover {
+    background-color: #fa8c0680;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #00000098;
+    transition-duration: 0,5s;
+}
